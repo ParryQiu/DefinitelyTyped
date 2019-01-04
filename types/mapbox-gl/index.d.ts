@@ -6,7 +6,6 @@
 
 /// <reference types="geojson" />
 
-export = mapboxgl;
 export as namespace mapboxgl;
 
 declare namespace mapboxgl {
@@ -1504,3 +1503,4 @@ declare namespace mapboxgl {
         'hillshade-accent-color-transition'?: Transition;
     }
 }
+export default mapboxgl;
